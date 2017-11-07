@@ -10,7 +10,7 @@ Since ESTOFS forecasts are every 6 hours a day, we clip the 1-6 hour data from e
 
 There are 4 different bash scripts that get run at a specific time each day.   Each script does basically this:
 
-```
+```bash
 # RPS clipping for aggregation
 # copy file clipped at last cycle from stage directory to agg directory
 mv $STAGE_DIR/*.nc $AGG_DIR
