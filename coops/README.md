@@ -17,3 +17,10 @@ We can do this work using simply cron, bash and NCO
 The whole goal is to make aggregations like 
 https://opendap.co-ops.nos.noaa.gov/thredds/cbofs_agg.html
 work better
+
+Why is this so slow to download files?
+```
+nos.cbofs.fields.f019.20171106.t00z.nc:                 89.82 MB    1.37 MB/s
+nos.cbofs.fields.f019.20171106.t06z.nc:                 89.82 MB    1.34 MB/s
+nos.cbofs.fields.f019.20171106.t12z.nc:                 89.82 MB    1.29 MB/s
+```
