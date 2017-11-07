@@ -1,4 +1,5 @@
-Update: These scripts no longer work because they rely on netcdf files being distributed for ESTOFS on the NCEP ftp site.  It appears that at some point (perhaps April 25, 2017), ESTOFS began distributing grib2 files instead of netcdf on their ftp site: ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/estofs/prod/
+# Scripts to create a "best time series" from ESTOFS forecast netcdf files
+**Update**: These scripts no longer work because they rely on netcdf files being distributed for ESTOFS on the NCEP ftp site.  It appears that at some point (perhaps April 25, 2017), ESTOFS began distributing grib2 files instead of netcdf on their ftp site: ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/estofs/prod/
 Also there is now an ESTOFS pacific, which did not exist when these scripts were written, so if the netcdf files were available these scripts would have to be modified to access slightly different file names (e.g. `estofs_atl` or `estofs_pac` instead of just `estofs`).
 
 
